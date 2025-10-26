@@ -24,14 +24,24 @@
     combos {
         compatible = "zmk,combos";
 
-        layer4_ESC {
-            bindings = <&lt 4 ESC>;
-            key-positions = <39 38>;
+        esc {
+            bindings = <&none>;
+            key-positions = <0 1>;
         };
 
         tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            bindings = <&none>;
+            key-positions = <10 11>;
+        };
+
+        bs {
+            bindings = <&none>;
+            key-positions = <9 8>;
+        };
+
+        del {
+            bindings = <&none>;
+            key-positions = <8 7>;
         };
     };
 
