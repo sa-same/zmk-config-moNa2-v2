@@ -30,17 +30,17 @@
         };
 
         tab {
-            bindings = <&none>;
+            bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
 
         bs {
-            bindings = <&none>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <9 8>;
         };
 
         del {
-            bindings = <&none>;
+            bindings = <&kp DEL>;
             key-positions = <8 7>;
         };
     };
