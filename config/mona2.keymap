@@ -97,9 +97,9 @@
 
         layer_1 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR         &kp PERCENT                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&trans           &trans       &kp LEFT_CONTROL  &kp RIGHT_BRACKET  &kp ASTRK              &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_PARENTHESIS  &trans        &kp BACKSLASH
-&trans           &trans       &trans            &trans             &trans       &trans    &trans  &trans                &trans                 &trans                 &trans        &kp PIPE
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR         &kp PERCENT                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS              &kp EQUAL     &kp BACKSPACE
+&trans           &trans       &kp LEFT_CONTROL  &kp RIGHT_BRACKET  &kp ASTRK              &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON          &kp SQT       &kp ENTER
+&trans           &trans       &trans            &trans             &trans       &trans    &trans  &kp BACKSLASH         &kp TILDE              &kp COMMA              &kp PERIOD    &mt RIGHT_SHIFT SLASH
 &trans           &trans       &trans            &trans             &trans       &trans    &trans  &trans                                                                            &trans
             >;
 
