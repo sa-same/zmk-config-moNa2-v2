@@ -26,22 +26,17 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <1 2>;
+            key-positions = <0 1>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <3 2>;
+            key-positions = <2 1>;
         };
 
-        bs {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 7>;
-        };
-
-        del {
-            bindings = <&kp DEL>;
-            key-positions = <7 6>;
+        trb {
+            bindings = <&mo 3>;
+            key-positions = <30 31>;
         };
     };
 
