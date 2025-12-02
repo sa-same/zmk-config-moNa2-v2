@@ -12,6 +12,10 @@ manifest:
       url-base: https://github.com/caksoylar  
     - name: zettaface  # <-- Input Processor Keybind
       url-base: https://github.com/zettaface
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: prospector
+      url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -29,5 +33,13 @@ manifest:
     - name: zmk-input-processor-keybind
       remote: zettaface
       revision: main
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: v1.0.0
+      path: modules/prospector-zmk-module
   self:
     path: config
